@@ -26,8 +26,6 @@ $(document).ready(function() {
       alert("Please enter a valid age.")
     }
 
-
-
     event.preventDefault();
   });
 });

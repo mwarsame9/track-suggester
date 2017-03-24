@@ -9,12 +9,18 @@ $(document).ready(function() {
 
     if (age > 35) {
       $("#Java").show();
+      $("#PHP").hide();
+      $("#Ruby").hide();
     }
     else if (age > 25 && age <35) {
       $("#PHP").show();
+      $("#Java").hide();
+      $("#Ruby").hide();
     }
     else if (age < 25) {
       $("#Ruby").show();
+      $("#Java").hide();
+      $("#PHP").hide();
     }
     else {
       alert("Please enter a valid age.")

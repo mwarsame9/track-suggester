@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
-    var name = $("input#name").val();
+    var name = $("input.name").val();
     var age = parseFloat($("input#age").val());
     var experience = $("input#experience").val();
     var work = $("input#work").val();

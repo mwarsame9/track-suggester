@@ -1,24 +1,26 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     var name = $("input#name").val();
-    var age = $("input#age").val();
+    var age = parseFloat($("input#age").val());
     var experience = $("input#experience").val();
     var work = $("input#work").val();
     var company = $("input#company").val();
-    var result = $("#track-result").val();
+    // var result = $("#track-result").val();
 
-    if (company === 'large' && work === mobile) {
-        result = "Java";
+    if (age >= 35) {
+      $("#Java").show();
+    }
+    else if (age < 35 && age > 25) {
+      $("#PHP").show();
+    }
+    else if (age < 25) {
+      $("#Ruby").show();
+    }
+    else {
+      alert("Please enter a valid age.")
     }
 
-    // $(".person1").text(person1Input);
-    // $(".person2").text(person2Input);
-    // $(".animal").text(animalInput);
-    // $(".exclamation").text(exclamationInput);
-    // $(".verb").text(verbInput);
-    // $(".noun").text(nounInput);
-
-    $("#track-result").show();
+    // $("#track-result").show();
 
     event.preventDefault();
   });

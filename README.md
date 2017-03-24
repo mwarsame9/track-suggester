@@ -7,7 +7,7 @@
 
 ## Description
 
-On this website I help students who are unsure about what track to choose make a decision. I do this by asking them five questions that are relevant in determining the best track. I use a combination of fill-in-the-blank and dropdown fields for the form. There is also a hyperlink to the tracks offered by Epicodus.
+On this website I help students who are unsure about what track to choose make a decision. I do this by asking them five questions that are relevant in determining the best track. I use a combination of text box and dropdown fields for the form. There is also a hyperlink to the tracks offered by Epicodus.
 
 ## Setup/Installation Requirements
 

@@ -1,16 +1,16 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    var name = $("input.name").val();
+  $("#trackForm").submit(function(event) {
     var age = parseFloat($("input#age").val());
+    var gender = $("input#gender").val();
     var experience = $("input#experience").val();
     var work = $("input#work").val();
     var company = $("input#company").val();
-    // var result = $("#track-result").val();
 
-    if (age >= 35) {
+
+    if (age > 35) {
       $("#Java").show();
     }
-    else if (age < 35 && age > 25) {
+    else if (age > 25 && age <35) {
       $("#PHP").show();
     }
     else if (age < 25) {
@@ -20,7 +20,7 @@ $(document).ready(function() {
       alert("Please enter a valid age.")
     }
 
-    // $("#track-result").show();
+
 
     event.preventDefault();
   });

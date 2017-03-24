@@ -5,16 +5,23 @@ body {
 div.jumbotron {
   background-color: #059EC4;
   color: white;
+  font-family: 'Slabo 27px', serif;
 }
 
 #Java {
   display: none;
+  font-family: 'Slabo 27px', serif;
+  margin-top: 30px;
 }
 
 #PHP {
   display: none;
+  font-family: 'Slabo 27px', serif;
+  margin-top: 30px;
 }
 
 #Ruby {
   display: none;
+  font-family: 'Slabo 27px', serif;
+  margin-top: 30px;
 }
